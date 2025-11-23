@@ -1,0 +1,37 @@
+<!-- javascript Object -->
+<html>
+    <body>
+        <script>
+            const student={
+                name:"Nahid",
+                age:20,
+                isPassed:true
+            };
+            document.write(student.name);
+
+// javascript array
+    
+      const fruits=["mango","banana","apple"];
+      console.log(fruits[0]);
+      console.log(fruits[1]);
+
+
+
+    //  javascript function
+    
+          function great()
+          {
+            console.log("hello world");
+          }
+          great();
+
+          function great()
+          {
+            console.log("hi nahid");
+          }
+          great();
+
+
+        </script>
+    </body>
+</html>
