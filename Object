@@ -1,0 +1,13 @@
+<!-- javascript Object -->
+<html>
+    <body>
+        <script>
+            const student={
+                name:"Nahid",
+                age:20,
+                isPassed:true
+            };
+            document.write(student.name);
+        </script>
+    </body>
+</html>
