@@ -18,6 +18,7 @@
 
 
             //Assignment-operator
+
            /* let a=10;
             a=a+5;
             console.log(a);
@@ -28,6 +29,7 @@
             */
 
             //ternary-operator
+
             /*let age=17;
             let isadult=age>12?"adult":"minor";
             console.log(isadult);
