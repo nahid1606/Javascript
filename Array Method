@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <script src="app.js"></script>
+</head>
+<body>
+   <script>
+     //array at() Method 
+
+    const number=[10,20,30,40];
+    console.log(number.at(2));
+    
+
+    //array concat() Method
+
+    const fruits=["apple","Mango"];
+    const vegetables=["tomato","carrot"];
+    const result=fruits.concat(vegetables);
+    console.log(result);
+
+    //array every() Method
+
+     const numbers=[10,20,30,40,50];
+     const result=numbers.every((num)=num>0);
+     console.log(result);
+
+     const numbers=[-10,39,89,49];
+     const result=numbers.every((num)=num>0)
+     console.log(result);
+
+     //array filter() Method
+
+     const numbers=[1,2,3,4,5,6];
+     const result=numbers.filter((num)=num%2==0)
+     console.log(result);
+
+     const numbers=[1,2,3,4,5,6];
+     const result=numbers.filter((num)=num%1==0)
+     console.log(result);
+
+     //array find() Method
+
+     const number=[3,5,120,12,34,5,7,34,56];
+     const result=numbers.find((num)=num>10)
+     console.log(result);//find method print first value if greater 10;means 120 print because 120 is the first value
+
+     //array find index() Method
+
+     const numbers=[10,120,23,4,4,6,3];
+     console result=numbers.find((num)=num>10)
+     console.log(result);
+     //find and findindex is same.find give the value and find index give index number.
+
+     //array from() Method
+
+     const str="Hello"; //string to array convert
+     const result=Array.from(str)
+     console.log(result);
+
+     //array includes() Method
+
+     const fruits=["apple","Mango","orange"];
+     const result=fruits.includes("Mango");
+     console.log(result);//return true or false.it will check mango exists.
+     
+     //array join() Method
+
+     const words=["I","Love","Bangladesh"];
+     const result=words.join()
+     console.log(" ");//convert array to string.
+
+     //array lastindexof() Method
+
+     const number=[1,2,3,4,5,9];
+     const result=numbers.lastIndexOf(9)
+     console.log(result);//print index number.output=5;
+
+
+     //array lenght() Method
+
+     const name=["nahid","monsur","emon"];
+     const result=name.length
+     console.log(result);//output 3.
+ 
+     //array pop()
+
+    const animals=["rabbit","cat","dog"];
+    const result=animals.pop()
+    console.log(result);//pop delete last element and return last element.
+
+    //array push()
+     
+    let fruits=["apple","banana"];
+    fruits.push("mango");
+    console.log(fruits);
+
+    //array reverse()
+
+    let numbers=[1,2,3];
+    numbers.reverse()
+    console.log(numbers);
+
+    //array shift()
+
+    let colors=["red","green","blue"];
+    let removeColor=colors.shift();
+    console.log(removeColor);//if we see which color is being delete.
+    console.log(color);//after delete which color is exist.
+
+    
+    //array slice()
+
+    let names=["rakib","nahid","rifat","hasib"];
+    let somenames=names.slice(1,3);
+    console.log(somenames);//output rakib and hasib
+    console.log(names);//output all value.slice method do not change main array.
+
+
+    //array some() Method
+
+     let numbers=[5,10,15];
+     let hasLargeNumber=numbers.some((num)=num>10)
+     console.log(hasLargeNumber);//return true;
+
+     let numbers=[10,20,30,40];
+     let hasLargeNumber=numbers.some((num)=num>50)
+     console.log(hasLargeNumber);//return false;
+
+ 
+     //array sort()
+
+     let fruits=["cherry","apple","banana"];
+     fruits.sort();
+     console.log(fruits);//return apple,banana,cherry.(a,b,c,d,e)this process sort.check first word.
+
+     let numbers=[20,5,100];
+     numbers.sort((a,b)=a-b);//if we use b-a then return 100,20,5
+     console.log(numbers);//output 5,10,100
+
+     //array splice()
+     let students=["arif","nishat","shuvo"];
+     students.splice(1,1,"nahid");
+     console.log(students);
+
+     //array toString()
+
+     let letters=["A","B","C"];
+     let result=letters.toString();
+     console.log(result);//return A,B,C
+
+     //array unshift()
+
+     let players=["sakib","tamim"];
+     players.unshift("mashrafee");
+     console.log("players");//output mashrafee sakib tamim
+   </script>
+</body>
+</html>
