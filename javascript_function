@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <link rel="stylesheet" href="k.css">
+
+</head>
+<body>
+    <script>
+        //using charAt
+     let name="bangladesh";
+     console.log(name.charAt(3));
+
+     //using concat function
+
+     let firstName="rahim";
+     let lastName="uddin";
+     let fullName=firstName.concat(" ",lastName);
+     console.log(fullName);
+
+     //using includes function(it return true and false)
+     let text="i love programming in javascript";
+     console.log(text.includes("javascript"));
+
+     //using indexOf function
+     let sentence="i am learning javascript";
+     console.log(sentence.indexOf("javascript"));
+
+     //lastIndexOf
+      let data="i am javascript learning javascript";
+     console.log(data.lastIndexOf("javascript"));
+
+     //startsWith
+
+     let mess="Hello Bangladesh";//return true because Hello is the first word
+     console.log(mess.startsWith("Hello"));
+
+     //endsWith
+     let msg="welcome in dhaka";
+     console.log(msg.endsWith("ctg"));  
+
+     //replace
+     let tex="i like python";
+     let newtext=tex.replace("python","javascript");
+     console.log(newtext);
+
+     //replace All
+     const country="Bangladesh is a beautiful country.i love Bangladesh";
+     let result=country.replaceAll("Bangladesh","BD");
+     console.log(result);
+
+     //slice
+     const nam="Bangladesh";
+     let resul=name.slice(0,5);
+     console.log(resul);
+
+     //substring
+     const te="programming";
+     const sub=te.substring(0,5);
+     console.log(sub);
+
+     //toLowerCase
+     const k="BANGLADESH";
+     const ui=k.toLowerCase();
+     console.log(ui);
+
+     //toUpperCase
+     const ji="nahid";
+     const io=ji.toUpperCase()
+     console.log(io);
+
+     //trim function(delete space)
+     const ni=" bangladesh is a nice country ";
+     const ri=ni.trim();
+     console.log(ri);
+
+     //trimStart
+     const p=" hello nahid";
+     console.log(p.trimStart());
+
+     //trimEnd()
+     const ti="hello world   ";
+     console.log(ti.trimEnd());
+
+     //toString
+     const number=123;
+     let res=number.toString();
+     console.log(typeof(res));
+
+     //length(lenth start 1 number index not 0 index)
+     const namei="Bangladesh";
+     console.log(namei.length);
+
+
+
+
+
+      
+    </script>
+</body>
+</html>
