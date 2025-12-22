@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <link rel="stylesheet" href="k.css">
+
+</head>
+<body>
+    <script>
+     
+     let result=Math.PI;
+     console.log(result);
+
+     let res=Math.round(4.5);
+     console.log(res);
+     
+     let nah=Math.ceil(4.1);
+     console.log(nah);
+
+     let resu=Math.floor(4.5);
+     console.log(resu);
+      
+     let ri=Math.sqrt(16);
+     console.log(ri);
+
+     let rp=Math.pow(4,5);
+     console.log(rp);
+
+     let t=Math.abs(-10);
+     console.log(t);
+
+     let re=Math.min(3,4,2,4,28);
+     console.log(re);
+
+     let ji=Math.max(3,4,2,4,28);
+     console.log(ji);
+
+     let y=Math.floor(Math.random()*10)+1 //if we multiply 10 he execute 9,if we multiply 100 ,he execute down 99.
+     console.log(y);
+
+       
+    </script>
+</body>
+</html>
