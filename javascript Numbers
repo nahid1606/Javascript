@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <link rel="stylesheet" href="k.css">
+
+</head>
+<body>
+    <script>
+     // using toFixed()
+     let num=3.14159;
+     console.log(num.toFixed(2));
+
+     //using toLocalestring()function
+     let number=1234567.89;
+     console.log(number.toLocaleString("en-US"));
+     console.log(number.toLocaleString("bn-BD"));
+
+     //using toPrecision()
+
+     let numb=100000;
+     let res=numb.toPrecision(4);
+     console.log(res);
+     
+     //using valueOf
+     let numo=50;
+     let result=numo.valueOf();
+     console.log(result);
+
+     //using parseInt
+     let str="123.45";
+     let resu=parseInt(str);
+     console.log(typeof(resu));
+
+     //using parseFloat
+
+     let stri="123.56";
+     let reslu=parseFloat(stri);
+     console.log(reslu);
+
+   
+       
+    </script>
+</body>
+</html>
