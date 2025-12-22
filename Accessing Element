@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <link rel="stylesheet" href="k.css">
+
+</head>
+<body>
+    
+     <h1 id="heading">welcome to javascript</h1>
+     <h2 class="heading_class">welcome to javascript</h2>
+     <h3 class="heading_class">welcome to c++</h3>
+     <h1 class="class">welcome to marnstack</h1>
+     
+
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+
+  
+     <button id="btn_id">Click</button>
+      <button class="btn_class">Click</button>   
+      <button>click</button>        
+
+
+   <script>
+    
+    let heading=document.getElementById("heading");
+    let heading_data=document.getElementById("heading_class");
+    console.log(heading);
+    console.log(heading_data);
+    let heading_da=document.getElementById("heading_class");
+    console.log(heading_da);
+    let heading_pa=document.getElementById("class");
+    console.log(heading_pa);
+    
+   //using document.getElementByTagName()
+    let p_tag=document.getElementByTagName("p");
+    console.log(p_tag);
+
+
+    //using queryselector
+    let btn_id=document.querySelector("#btn_id");
+    let btn_class=document.querySelector("*btn_class");
+    console.log(btn_id);
+    console.log(btn_class);
+
+    //querySelectorAll
+
+    let button_tagName=document.querySelectorAll("btton");
+      
+    console.log(button_tagName);
+
+    </script>
+
+</body>
+</html>
