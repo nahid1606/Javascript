@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <link rel="stylesheet" href="k.css">
+
+</head>
+<body>
+    <script>
+
+        const now=new Date();
+        console.log(now);
+        const setTime=new Date("2020-05-15");
+        console.log(setTime);
+
+        const dat=new Date();
+        console.log("Date:",dat.getDate());
+        console.log("month:",dat.getMonth());
+        console.log("year:",dat.getYear());
+        console.log("minute:",dat.getMinutes());
+        console.log("second:",dat.getSeconds());
+
+        const date=new Date();
+        date.setFullYear(2023);
+        date.setMonth(5);
+        date.setDate(12);
+        console.log(date);
+
+        const time=new Date();
+        let bdTime=time.toLocaleString("en-BD");
+        console.log(bdTime);
+
+
+       
+              
+    </script>
+</body>
+</html>
